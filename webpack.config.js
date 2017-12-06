@@ -8,8 +8,8 @@ var config = {
    entry: './src/index.js',
    
    output: {
-       path:__dirname + "/src/",
-      filename: 'index.min.js',
+       path:__dirname ,
+      filename: 'bundle.js',
       publicPath:'/'
    },
    
